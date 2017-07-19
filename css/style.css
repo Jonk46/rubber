@@ -139,10 +139,11 @@ p.article {
 
 div.section4-flex {
 	display: flex;
+	justify-content: space-between;
 }
 
 .section4-img {
-	width: 200px;
+	min-width: 200px;
 	padding: 15px;
 	background: #c8e19d;
 }
@@ -154,13 +155,12 @@ div.section4-flex {
 }
 
 .section3-flexlist {
-	/*width: 200px;*/
+	min-width: 200px;
 	padding: 15px;
 	background: #c8e19d;
 }
 
 p.article-flex {
-	width: 200px;
 	font-family: 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 18px;
